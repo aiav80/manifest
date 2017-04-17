@@ -18,7 +18,7 @@
   <project name="hardware-intel-kernelflinger" path="hardware/intel/kernelflinger" groups="pdk" remote="github" revision="master" />
   <project name="external-gnu-efi" path="external/gnu-efi" groups="pdk" remote="github" revision="master" />
   <project name="device-androidia-mixins" path="device/intel/mixins" remote="github" revision="master" />
-  <project name="device-androidia" path="device/intel/android_ia" remote="github" revision="master" />
+  <project name="device-androidia" path="device/intel/android_ia" remote="gh" revision="default" />
   <project name="device-androidia-kernel" path="kernel/android_ia" remote="github" revision="master" />
   <project name="device-androidia-sound" path="vendor/intel/external/android_ia/audio" remote="github" revision="master" />
   <project name="device-intel-common" path="device/intel/common" remote="github" revision="master" />
@@ -26,7 +26,7 @@
   <project name="libva" path="vendor/intel/external/android_ia/libva" remote="github" revision="master" />
   <project name="vaapi" path="vendor/intel/external/android_ia/vaapi" remote="github" revision="master" />
     <!-- From public kernel.org -->
-  <project name="pub/scm/linux/kernel/git/firmware/linux-firmware" path="vendor/linux/firmware" remote="kernelorg" revision="695f2d6d82173f4e322d8f834c9849775778022a" />
+  <project name="pub/scm/linux/kernel/git/firmware/linux-firmware" path="vendor/linux/firmware" remote="kernelorg" revision="master" />
 
   <!-- Temporary till necessary patches from AOSP master land in Android N branch. We use frameworks-av as a temporary repository for libbcc -->
   <project name="frameworks-libbcc" path="frameworks/compile/libbcc" remote="github" revision="master" />
